@@ -14,19 +14,19 @@ int main()
 
     setlocale(LC_ALL, "rus");
 
- 1.
-    cout<<"Ââåäèòå ÷èñëî ïîä êîðíåì è ñòåïåíü êîðíÿ:\n";
+ /*1. 
+    cout<<"Введите число под корнем и степень корня:\n";
     int Chislo, Stepen = 6; 
     double Result = 0; 
     cin>>Chislo; 
     Result = VichWithDiff(Chislo, Stepen); 
     cout<<"\nresult = "<<Result; 
     return 0; 
-}
+}*/
 
   
    /*2. 
-    cout<<"Ðàçìåð ìàññèâà -> ";
+    cout<<"Размер массива -> ";
     cin>>N; 
     int Massiv[N] = {0}; 
     for(int i = 0; i < N; i++){ 
@@ -46,28 +46,26 @@ int main()
     if(Month == "jan" || Month == "dec" || Month == "feb"){ 
         Idinf = 1+rand()%+2; 
         Tempa = TemperatureData(Day, Idinf); 
-        cout<<Day<<"-ãî "<<Month<<" íà óëèöå "<<Tempa<<" ãðàäóñîâ ëþòîãî ìîðîçà. Áóäåøü ñîñóëüêîé!"; 
+        cout<<Day<<"-го "<<Month<<" на улице "<<Tempa<<" градусов лютого мороза. Будешь сосулькой!"; 
     }
 
     else if(Month == "march" || Month == "april" || Month == "may"){ 
         Idinf = 3+rand()%+5;
         Tempa = TemperatureData(Day, Idinf);
-        cout<<Day<<"-ãî "<<Month<<" íà óëèöå "<<Tempa<<" ãðàäóñîâ ïðîõëàäû. Îäåâàéòåñü òåïëåå!";
+        cout<<Day<<"-го "<<Month<<" на улице "<<Tempa<<" градусов прохлады. Одевайтесь теплее!";
     }
     else if(Month == "juny" || Month == "july" || Month == "aug"){ 
         Idinf = 6+rand()%+8;
         Tempa = TemperatureData(Day, Idinf);
-        cout<<Day<<"-ãî "<<Month<<" íà óëèöå "<<Tempa<<" ãðàäóñîâ æàðû. Áåãîì íà ìîðå!";
+        cout<<Day<<"-го "<<Month<<" на улице "<<Tempa<<" градусов жары. Бегом на море!";
     }
     else if(Month == "sep" || Month == "oct" || Month == "nov"){ 
         Idinf = 9+rand()%+11;
         Tempa = TemperatureData(Day, Idinf);
-        cout<<Day<<"-ãî "<<Month<<" íà óëèöå "<<Tempa<<" ãðàäóñîâ õîëîäà. Òû íîñèøü øàïêó óøàíêó? ";
+        cout<<Day<<"-го "<<Month<<" на улице "<<Tempa<<" градусов холода. Ты носишь шапку ушанку? ";
     }
     else 
-        cout<<"Íåêîððåêòíûé ââîä!";
+        cout<<"Некорректный ввод!";
     return 0; */
 
 }
-
-   
